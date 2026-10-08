@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word of the Day + Dictionary</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header>
+  <div class="badge">LEARN SOMETHING NEW</div>
+  <h1>🔤 Word of the Day</h1>
+  <p>Search an English word and get its meaning instantly.</p>
+</header>
+
+<section class="search-box">
+  <input id="wordInput" type="text" placeholder="Enter a word..." autocomplete="off">
+  <button id="searchBtn">Search</button>
+  <button id="randomBtn" class="light">Random Word</button>
+</section>
+
+<div id="status" class="status"></div>
+<section id="result" class="result">
+  <div class="welcome">
+    <div>📖</div>
+    <h2>Welcome!</h2>
+    <p>Search for a word or click <b>Random Word</b>.</p>
+  </div>
+</section>
+
+<footer>Free Dictionary API · No API key required</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
